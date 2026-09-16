@@ -29,7 +29,7 @@ describe('interpolateCommandMenuItemFields', () => {
     const result = interpolateCommandMenuItemFields(
       buildItem({
         label: 'Create new {objectLabelSingular}',
-        shortLabel: 'New {objectLabelSingular}',
+        shortLabel: '{objectLabelSingular}',
       }),
       buildContextApi({
         objectMetadataItem: { labelSingular: 'widget', labelPlural: 'widgets' },
@@ -37,7 +37,7 @@ describe('interpolateCommandMenuItemFields', () => {
     );
 
     expect(result.label).toBe('Create new Widget');
-    expect(result.shortLabel).toBe('New Widget');
+    expect(result.shortLabel).toBe('Widget');
   });
 
   it('follows the selection for objectLabel', () => {

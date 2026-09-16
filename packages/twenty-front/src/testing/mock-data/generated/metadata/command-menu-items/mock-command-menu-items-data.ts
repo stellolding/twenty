@@ -70,7 +70,7 @@ export const mockedCommandMenuItems: CommandMenuItemFieldsFragment[] =
     "frontComponent": null,
     "label": "Create new {objectLabelSingular}",
     "icon": "IconPlus",
-    "shortLabel": "New {objectLabelSingular}",
+    "shortLabel": "{objectLabelSingular}",
     "navigationTargetObjectMetadataId": null
   },
   {
@@ -1560,7 +1560,7 @@ export const mockedCommandMenuItems: CommandMenuItemFieldsFragment[] =
     "frontComponent": null,
     "label": "Create new Campaign",
     "icon": "IconPlus",
-    "shortLabel": "New Campaign",
+    "shortLabel": "Campaign",
     "navigationTargetObjectMetadataId": null
   },
   {

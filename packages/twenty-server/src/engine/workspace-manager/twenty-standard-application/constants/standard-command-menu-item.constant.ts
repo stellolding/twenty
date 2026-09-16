@@ -59,7 +59,7 @@ export const STANDARD_COMMAND_MENU_ITEMS = {
     position: 3,
     shortLabel: i18nLabel(
       msg({
-        message: `New {objectLabelSingular}`,
+        message: `{objectLabelSingular}`,
         context: 'commandMenuItem.shortLabel',
       }),
     ),
@@ -972,7 +972,7 @@ export const STANDARD_COMMAND_MENU_ITEMS = {
     isPinned: true,
     position: 67,
     shortLabel: i18nLabel(
-      msg({ message: `New Campaign`, context: 'commandMenuItem.shortLabel' }),
+      msg({ message: `Campaign`, context: 'commandMenuItem.shortLabel' }),
     ),
     availabilityType: CommandMenuItemAvailabilityType.GLOBAL_OBJECT_CONTEXT,
     conditionalAvailabilityExpression:
